@@ -70,3 +70,5 @@ function ujNapi() {
 function showAnswer() {
     document.getElementById("valasz").innerHTML = valaszok[parseInt(localStorage.napiszam)]
 }
+
+document.write(localStorage.napiszam)
